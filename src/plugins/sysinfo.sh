@@ -177,8 +177,8 @@ print_line() { # <String to Print>, [[<String to Print>] ...]
 	fi
 }
 
-footer_xppaiwrt() {
-	printf "Mod: XppaiWRT"
+footer_wapwrt() {
+	printf "Mod: WAP-WRT"
 }
 
 print_machine() {
@@ -459,7 +459,7 @@ print_wan
 print_lan
 print_wlan
 print_vpn
-footer_xppaiwrt
+footer_wapwrt
 
 finalize
 exit 0
